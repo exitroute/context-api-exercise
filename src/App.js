@@ -3,6 +3,7 @@ import React, { Component } from 'react';
 import './App.css';
 import { MyProvider, MyContext } from './context';
 import B from './components/B';
+import P from "./components/P";
 
 class App extends Component {
   render() {
@@ -26,6 +27,8 @@ class App extends Component {
                 </ul>
                 <button onClick={context.incrementX}>incrementX</button>
                 <B />
+                <button onClick={context.decrementY}>decrementY</button>
+                <P />
               </div>
             )
           }
