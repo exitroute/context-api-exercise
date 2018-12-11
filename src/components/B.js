@@ -5,7 +5,8 @@ export default class B extends Component {
   render() {
     return (
       <div>
-        <h2>B</h2>
+        <h2>Component B</h2>
+        Component B contains Component C
         <C />
       </div> 
     )
