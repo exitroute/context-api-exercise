@@ -1,10 +1,10 @@
 import React, { Component, Fragment } from 'react';
 import { MyContext } from "../context";
 /* 
-* Use for BUTTONS
-*   Import CONTEXT 
-*   Wrap <buttons>  in <MyContext.Consumer> 
-*   and set onClick to context.incrementX 
+* X Use for BUTTONS
+*   X Import CONTEXT 
+*   X Wrap <buttons>  in <MyContext.Consumer> 
+*   X and set onClick to context.incrementX 
 */
 
 export default class Buttons extends Component {
